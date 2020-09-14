@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+       <form onsubmit="addTask(); return false;">
+        <input type="text" id="task" required>
+        <button type="submit">Add Task</button>
+        </form>
+        <button style="float: right; margin-top: 7px; margin-left: 5px;" onclick="clearAll()">Clear All Tasks</button>
+        <br>
+        <hr>
+        <div id="alltasks">
+           <br>
+            
+        </div> 
+    </div>
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>

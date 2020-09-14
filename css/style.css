@@ -1,0 +1,50 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  td, th {
+    border: 0px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) { 
+    background-color: #dddddd;
+  }
+h1{
+            background-color: #79CDCD	;
+
+}
+.container
+{
+        margin-top: 70px;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 45%;
+}
+input
+{
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px;
+}
+button
+{
+        background-color: #79CDCD	;
+    color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.task
+{
+    margin-bottom: 8px;
+}
+.tas-hr
+{
+    width: 90%;
+}
